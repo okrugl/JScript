@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        ///Калькулятор на 2 числа
+
+var x = +prompt('введите 1');
+var proz = prompt('введите + или -');
+var y = +prompt('введите 2');
+
+switch(proz){
+    case '+':
+        alert('посчитать: ' + x + '+' + y);
+    break;
+    case '-':
+        alert(x-y);
+    break;
+    default:
+        alert('Error');
+}
+
+alert(x + proz + y); //почему он выводит, а не считает
+    </script>
+
+</body>
+</html>
