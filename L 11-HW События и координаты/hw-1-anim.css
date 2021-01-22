@@ -1,0 +1,32 @@
+.box {
+	width: 60%;
+    height: 200px;
+    border: 2px solid red;
+    margin: 0 auto;
+    position: relative;
+}
+.payt {
+    display: inline-block;
+}
+
+.payt [type="checkbox"] {
+    display: none;
+}
+.animated {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    transition-property: left 2s;
+    transition-duration: 2s;
+}
+
+:checked ~ .animated {
+    left: 90%;
+    transition-duration: 2s;
+    /* transform: rotate(1.5turn); */
+}
+
+.-ease {
+    transition-timing-function: ease;
+}

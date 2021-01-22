@@ -1,7 +1,7 @@
 // повесили событие на стр
-addEventListener('DOMContentLoaded', function(){
-    console.log('ghbdtn')
-});
+// addEventListener('DOMContentLoaded', function(){
+//     console.log('ghbdtn')
+// });
 
 
 // 1 при нажатии выводился alert
@@ -28,6 +28,33 @@ document.querySelector('#redy').onclick = function(e){
  };
 
  
+// 2 при клике меняется папка по двойному щелчку
 
+// let clicabel = document.querySelectorAll('.dbl');
 
- 
+// let firstClicabel = clicabel[0];
+// let secondClicabel = clicabel[1]; 
+
+// function reaction() {
+//     };
+
+// firstClicabel.addEventListener('click', reaction);
+// secondClicabel.addEventListener('dblclick', function(){
+//     this.style.display = 'none';
+// });
+
+let a = document.querySelectorAll('.ani1');
+let b = document.querySelectorAll('.ani2');
+let x = false;
+function imgchange(obj, imgX, imgY) {
+    
+   if  (x){
+   obj.src = imgX
+   } else {
+   obj.src=imgY
+   }
+  x = !x
+ };
+
+ onclick = imgchange(this, a, b);
+
