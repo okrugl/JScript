@@ -1,0 +1,240 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0);
+  cursor: default;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  background: transparent;
+}
+
+*:focus,
+*:active,
+*:hover {
+  outline: none;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+pre {
+  tab-size: 4;
+  white-space: pre-wrap;
+}
+
+q {
+  quotes: "“", "”", "‘", "’";
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+button,
+input,
+select[multiple],
+textarea {
+  background-image: none;
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+input,
+textarea {
+  resize: none;
+  user-select: text;
+}
+
+[placeholder]:focus::placeholder {
+  color: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: url(../images/bk.jpeg);
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-family: "Shadows Into Light", sans-serif, Arial;
+  color: rgb(245, 218, 10);
+  padding: 40px 0 20px;
+  font-size: 100px;
+  text-shadow: 0 0 10px #444;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.location__item {
+  width: 18%;
+  border: 1.5px solid #c8c8c8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  transition: 0.2s;
+  background-color: rgba(61, 61, 61, 0.86);
+  cursor: pointer;
+}
+.location__item:hover {
+  box-shadow: 0 0 10px 0 #fff;
+}
+.location__item:hover .location__name {
+  color: #fff;
+}
+.location__item:hover .location__avatar {
+  transform: scale(1.4);
+}
+.location__wrapper {
+  overflow: hidden;
+  border-radius: 14px;
+}
+.location__name {
+  font-family: "Shadows Into Light", sans-serif, Arial;
+  text-align: center;
+  color: #c7c7c7;
+  font-size: 30px;
+  margin-top: 20px;
+  transition: 0.2s;
+  overflow: hidden;
+  padding: 0 10px;
+  text-overflow: ellipsis;
+}
+.location__avatar {
+  transition: 0.2s;
+}
+
+/*# sourceMappingURL=style.css.map */
