@@ -1,0 +1,18 @@
+body{
+  background: url(../images/bk.jpeg);
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+.title{
+  text-align: center;
+  font-family: $shadows;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-size: 60px;
+  text-shadow: 0 0 10px #444;
+}
